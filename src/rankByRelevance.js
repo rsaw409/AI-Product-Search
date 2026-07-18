@@ -20,14 +20,12 @@ const buildSystemPrompt = (candidates) => {
 
 /**
  * Re-ranks a list of {product, score, explanation} results using LLM by relevancy.
- * Falls back to returning the input unchanged if no API key
- * is configured or the call fails for any reason.
  *
  * @param {string} query
- * @param {Array} retrievedResults - output of chromaSearch/tfidfSearch .results
- * @returns {Promise<{ results: Array, llmApplied: boolean, note?: string }>}
+ * @param {Array} retrievedResults - output of vectorDB search
+ * @returns {Promise<Array>}
  */
-async function rerankWithLLM(query, retrievedResults) {
+async function rankByRelevance(query, retrievedResults) {
   if (!process.env.GROQ_API_KEY) {
     console.error(
       "No GROQ_API_KEY configured, Set it in your .env file to enable sorting by relevancy.",
@@ -64,4 +62,4 @@ async function rerankWithLLM(query, retrievedResults) {
   }
 }
 
-export { rerankWithLLM };
+export { rankByRelevance };

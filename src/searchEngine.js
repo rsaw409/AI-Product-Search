@@ -1,5 +1,5 @@
-import { rerankWithLLM } from "./llmRerank.js";
-import { generateFilter } from "./generateFilter.js";
+import { rankByRelevance } from "./rankByRelevance.js";
+import { queryProcessor } from "./queryProcessor.js";
 import { queryProducts, getProductById } from "./vectorStore.js";
 
 /**
@@ -15,7 +15,7 @@ async function search(query, options = {}) {
 
   switch (sortBy) {
     case "relevance": {
-      reranked = await rerankWithLLM(query, base.results);
+      reranked = await rankByRelevance(query, base.results);
       break;
     }
     case "price": {
@@ -42,7 +42,7 @@ async function search(query, options = {}) {
 async function semanticSearch(query, options = {}) {
   const { limit = 10 } = options;
 
-  const filter = await generateFilter(query);
+  const filter = await queryProcessor(query);
 
   const retrieved = await queryProducts(query, filter, limit);
 

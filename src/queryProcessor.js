@@ -16,7 +16,7 @@ const buildSystemPrompt = (availableCategories) => {
  *    minPrice: number|null, maxPrice: number|null, category: string[] ,
  * }>}
  */
-async function generateFilter(query) {
+async function queryProcessor(query) {
   if (!process.env.GROQ_API_KEY) {
     throw new Error("GROQ_API_KEY not set, cannot call LLM. Set it in .env ");
   }
@@ -38,4 +38,4 @@ async function generateFilter(query) {
   }
 }
 
-export { generateFilter };
+export { queryProcessor };

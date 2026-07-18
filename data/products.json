@@ -1,42 +1,282 @@
 [
-  { "id": "P001", "title": "Redragon K552 Mechanical Gaming Keyboard", "description": "Compact 87-key mechanical keyboard with red switches, RGB backlight, built for fast-paced gaming.", "category": "Gaming Keyboards", "price": 3499 },
-  { "id": "P002", "title": "Logitech G213 Prodigy Gaming Keyboard", "description": "Membrane gaming keyboard with customizable RGB lighting and spill-resistant design.", "category": "Gaming Keyboards", "price": 4299 },
-  { "id": "P003", "title": "Ant Esports MK1400 Pro Mechanical Keyboard", "description": "Budget mechanical keyboard with blue switches, anti-ghosting, and durable keycaps for everyday typing and gaming.", "category": "Mechanical Keyboards", "price": 1999 },
-  { "id": "P004", "title": "Cosmic Byte CB-GK-16 Firebolt Mechanical Keyboard", "description": "Affordable mechanical gaming keyboard with outemu blue switches and rainbow backlighting.", "category": "Gaming Keyboards", "price": 2199 },
-  { "id": "P005", "title": "HP K500F Wired Gaming Keyboard", "description": "Membrane keyboard with spill resistance and quiet keys, suited for casual gaming and office work.", "category": "Gaming Keyboards", "price": 999 },
-  { "id": "P006", "title": "Razer BlackWidow V3 Mechanical Gaming Keyboard", "description": "Premium mechanical keyboard with green clicky switches, per-key RGB, and doubleshot ABS keycaps.", "category": "Gaming Keyboards", "price": 12999 },
-  { "id": "P007", "title": "PlayStation Store Gift Card ₹1000", "description": "Digital gift card to redeem games, add-ons, and subscriptions on the PlayStation Store.", "category": "Gift Cards", "price": 1000 },
-  { "id": "P008", "title": "PlayStation Store Gift Card ₹2000", "description": "Digital top-up card for PS Store wallet, redeemable for games and DLC.", "category": "Gift Cards", "price": 2000 },
-  { "id": "P009", "title": "PlayStation Plus Membership 3 Months", "description": "Subscription card granting online multiplayer access and monthly free games on PlayStation.", "category": "Gift Cards", "price": 1999 },
-  { "id": "P010", "title": "Xbox Gift Card ₹1500", "description": "Digital gift card for Xbox Store purchases, games, and add-ons.", "category": "Gift Cards", "price": 1500 },
-  { "id": "P011", "title": "Steam Wallet Code ₹500", "description": "Prepaid code to add funds to a Steam wallet for PC game purchases.", "category": "Gift Cards", "price": 500 },
-  { "id": "P012", "title": "Amazon Basics Wired Keyboard and Mouse Combo", "description": "Simple full-size keyboard and mouse combo for everyday office use.", "category": "Office Accessories", "price": 899 },
-  { "id": "P013", "title": "Logitech MX Keys Wireless Keyboard", "description": "Premium wireless keyboard with backlit keys for productivity and typing comfort.", "category": "Office Accessories", "price": 8999 },
-  { "id": "P014", "title": "boAt Airdopes 141 True Wireless Earbuds", "description": "Bluetooth earbuds with ASAP charge, 42 hours playback, and IPX4 sweat resistance.", "category": "Audio", "price": 1299 },
-  { "id": "P015", "title": "Sony WH-1000XM4 Wireless Noise Cancelling Headphones", "description": "Industry-leading noise cancellation with premium sound quality and 30-hour battery life.", "category": "Audio", "price": 24999 },
-  { "id": "P016", "title": "JBL Quantum 100 Gaming Headset", "description": "Wired over-ear gaming headset with flip-up mic, designed for immersive gameplay audio.", "category": "Gaming Audio", "price": 1799 },
-  { "id": "P017", "title": "Logitech G102 Lightsync Gaming Mouse", "description": "Lightweight gaming mouse with customizable RGB and 8000 DPI optical sensor.", "category": "Gaming Accessories", "price": 1399 },
-  { "id": "P018", "title": "Razer DeathAdder Essential Gaming Mouse", "description": "Ergonomic gaming mouse with 6400 DPI sensor and mechanical switches.", "category": "Gaming Accessories", "price": 1899 },
-  { "id": "P019", "title": "Samsung 27-inch Curved Gaming Monitor", "description": "144Hz curved monitor with 1ms response time, ideal for competitive gaming.", "category": "Monitors", "price": 18999 },
-  { "id": "P020", "title": "Dell 24-inch Full HD Monitor", "description": "IPS panel monitor suitable for office work and casual use.", "category": "Monitors", "price": 8499 },
-  { "id": "P021", "title": "Sony DualSense Wireless Controller", "description": "PlayStation 5 controller with haptic feedback and adaptive triggers.", "category": "Gaming Accessories", "price": 5999 },
-  { "id": "P022", "title": "Xbox Wireless Controller", "description": "Ergonomic wireless controller compatible with Xbox and Windows PCs.", "category": "Gaming Accessories", "price": 4999 },
-  { "id": "P023", "title": "Nintendo Switch OLED Console", "description": "Handheld gaming console with vibrant OLED screen and enhanced audio.", "category": "Consoles", "price": 34999 },
-  { "id": "P024", "title": "Sony PlayStation 5 Console", "description": "Next-gen gaming console with ultra-high-speed SSD and ray tracing support.", "category": "Consoles", "price": 54999 },
-  { "id": "P025", "title": "Mi Power Bank 3i 20000mAh", "description": "High-capacity power bank with dual USB output and fast charging support.", "category": "Electronics", "price": 1699 },
-  { "id": "P026", "title": "boAt Rockerz 450 Bluetooth Headphones", "description": "On-ear wireless headphones with 15-hour battery and punchy bass.", "category": "Audio", "price": 1399 },
-  { "id": "P027", "title": "Ant Esports MK3400W Wireless Mechanical Keyboard", "description": "Wireless mechanical keyboard with hot-swappable switches and compact 75% layout, great value for budget gaming setups.", "category": "Mechanical Keyboards", "price": 3299 },
-  { "id": "P028", "title": "Zebronics Zeb-Transformer-K Gaming Keyboard", "description": "Entry-level membrane gaming keyboard with rainbow LED effects at a low price point.", "category": "Gaming Keyboards", "price": 799 },
-  { "id": "P029", "title": "Corsair K70 RGB Pro Mechanical Keyboard", "description": "High-end mechanical keyboard with Cherry MX switches and aircraft-grade aluminum frame.", "category": "Gaming Keyboards", "price": 14999 },
-  { "id": "P030", "title": "iBall Wired Gaming Keyboard", "description": "Basic wired membrane keyboard with backlighting, targeted at budget-conscious gamers.", "category": "Gaming Keyboards", "price": 699 },
-  { "id": "P031", "title": "Google Play Gift Card ₹1000", "description": "Redeemable for apps, games, and in-app purchases on the Google Play Store.", "category": "Gift Cards", "price": 1000 },
-  { "id": "P032", "title": "Apple Gift Card ₹2000", "description": "Digital gift card for App Store, iTunes, and Apple services purchases.", "category": "Gift Cards", "price": 2000 },
-  { "id": "P033", "title": "Fire-Boltt Phoenix Smart Watch", "description": "Fitness smartwatch with heart rate monitor, SpO2 tracking, and multiple sport modes.", "category": "Wearables", "price": 1999 },
-  { "id": "P034", "title": "Noise ColorFit Pro 4 Smartwatch", "description": "AMOLED display smartwatch with Bluetooth calling and health tracking.", "category": "Wearables", "price": 2799 },
-  { "id": "P035", "title": "HyperX Alloy Origins Core Mechanical Keyboard", "description": "Tenkeyless mechanical keyboard with aircraft-grade aluminum body and HyperX switches, aimed at esports players.", "category": "Gaming Keyboards", "price": 6999 },
-  { "id": "P036", "title": "Portronics Toad 23 Wireless Mouse", "description": "Compact wireless mouse for everyday computing needs.", "category": "Office Accessories", "price": 499 },
-  { "id": "P037", "title": "Steam Deck 256GB", "description": "Handheld gaming PC that runs your Steam library on the go.", "category": "Consoles", "price": 52999 },
-  { "id": "P038", "title": "Flipkart Gift Card ₹500", "description": "E-gift voucher redeemable across Flipkart's product catalog.", "category": "Gift Cards", "price": 500 },
-  { "id": "P039", "title": "Cosmic Byte CB-GK-19 Neutron Mechanical Keyboard", "description": "Full-size mechanical keyboard with hot-swappable switches, dedicated media keys, ideal for budget gaming rigs.", "category": "Mechanical Keyboards", "price": 2899 },
-  { "id": "P040", "title": "Lenovo Legion K500 RGB Gaming Keyboard", "description": "Mechanical gaming keyboard with per-key RGB and anti-ghosting for competitive play.", "category": "Gaming Keyboards", "price": 5499 }
+  {
+    "id": "P001",
+    "title": "Redragon K552 Mechanical Gaming Keyboard",
+    "description": "Compact 87-key mechanical keyboard with red switches, RGB backlight, built for fast-paced gaming.",
+    "category": "Gaming Keyboards",
+    "price": 3499
+  },
+  {
+    "id": "P002",
+    "title": "Logitech G213 Prodigy Gaming Keyboard",
+    "description": "Membrane gaming keyboard with customizable RGB lighting and spill-resistant design.",
+    "category": "Gaming Keyboards",
+    "price": 4299
+  },
+  {
+    "id": "P003",
+    "title": "Ant Esports MK1400 Pro Mechanical Keyboard",
+    "description": "Budget mechanical keyboard with blue switches, anti-ghosting, and durable keycaps for everyday typing and gaming.",
+    "category": "Mechanical Keyboards",
+    "price": 1999
+  },
+  {
+    "id": "P004",
+    "title": "Cosmic Byte CB-GK-16 Firebolt Mechanical Keyboard",
+    "description": "Affordable mechanical gaming keyboard with outemu blue switches and rainbow backlighting.",
+    "category": "Gaming Keyboards",
+    "price": 2199
+  },
+  {
+    "id": "P005",
+    "title": "HP K500F Wired Gaming Keyboard",
+    "description": "Membrane keyboard with spill resistance and quiet keys, suited for casual gaming and office work.",
+    "category": "Gaming Keyboards",
+    "price": 999
+  },
+  {
+    "id": "P006",
+    "title": "Razer BlackWidow V3 Mechanical Gaming Keyboard",
+    "description": "Premium mechanical keyboard with green clicky switches, per-key RGB, and doubleshot ABS keycaps.",
+    "category": "Gaming Keyboards",
+    "price": 12999
+  },
+  {
+    "id": "P007",
+    "title": "PlayStation Store Gift Card ₹1000",
+    "description": "Digital gift card to redeem games, add-ons, and subscriptions on the PlayStation Store.",
+    "category": "Gift Cards",
+    "price": 1000
+  },
+  {
+    "id": "P008",
+    "title": "PlayStation Store Gift Card ₹2000",
+    "description": "Digital top-up card for PS Store wallet, redeemable for games and DLC.",
+    "category": "Gift Cards",
+    "price": 2000
+  },
+  {
+    "id": "P009",
+    "title": "PlayStation Plus Membership 3 Months",
+    "description": "Subscription card granting online multiplayer access and monthly free games on PlayStation.",
+    "category": "Gift Cards",
+    "price": 1999
+  },
+  {
+    "id": "P010",
+    "title": "Xbox Gift Card ₹1500",
+    "description": "Digital gift card for Xbox Store purchases, games, and add-ons.",
+    "category": "Gift Cards",
+    "price": 1500
+  },
+  {
+    "id": "P011",
+    "title": "Steam Wallet Code ₹500",
+    "description": "Prepaid code to add funds to a Steam wallet for PC game purchases.",
+    "category": "Gift Cards",
+    "price": 500
+  },
+  {
+    "id": "P012",
+    "title": "Amazon Basics Wired Keyboard and Mouse Combo",
+    "description": "Simple full-size keyboard and mouse combo for everyday office use.",
+    "category": "Office Accessories",
+    "price": 899
+  },
+  {
+    "id": "P013",
+    "title": "Logitech MX Keys Wireless Keyboard",
+    "description": "Premium wireless keyboard with backlit keys for productivity and typing comfort.",
+    "category": "Office Accessories",
+    "price": 8999
+  },
+  {
+    "id": "P014",
+    "title": "boAt Airdopes 141 True Wireless Earbuds",
+    "description": "Bluetooth earbuds with ASAP charge, 42 hours playback, and IPX4 sweat resistance.",
+    "category": "Audio",
+    "price": 1299
+  },
+  {
+    "id": "P015",
+    "title": "Sony WH-1000XM4 Wireless Noise Cancelling Headphones",
+    "description": "Industry-leading noise cancellation with premium sound quality and 30-hour battery life.",
+    "category": "Audio",
+    "price": 24999
+  },
+  {
+    "id": "P016",
+    "title": "JBL Quantum 100 Gaming Headset",
+    "description": "Wired over-ear gaming headset with flip-up mic, designed for immersive gameplay audio.",
+    "category": "Gaming Audio",
+    "price": 1799
+  },
+  {
+    "id": "P017",
+    "title": "Logitech G102 Lightsync Gaming Mouse",
+    "description": "Lightweight gaming mouse with customizable RGB and 8000 DPI optical sensor.",
+    "category": "Gaming Accessories",
+    "price": 1399
+  },
+  {
+    "id": "P018",
+    "title": "Razer DeathAdder Essential Gaming Mouse",
+    "description": "Ergonomic gaming mouse with 6400 DPI sensor and mechanical switches.",
+    "category": "Gaming Accessories",
+    "price": 1899
+  },
+  {
+    "id": "P019",
+    "title": "Samsung 27-inch Curved Gaming Monitor",
+    "description": "144Hz curved monitor with 1ms response time, ideal for competitive gaming.",
+    "category": "Monitors",
+    "price": 18999
+  },
+  {
+    "id": "P020",
+    "title": "Dell 24-inch Full HD Monitor",
+    "description": "IPS panel monitor suitable for office work and casual use.",
+    "category": "Monitors",
+    "price": 8499
+  },
+  {
+    "id": "P021",
+    "title": "Sony DualSense Wireless Controller",
+    "description": "PlayStation 5 controller with haptic feedback and adaptive triggers.",
+    "category": "Gaming Accessories",
+    "price": 5999
+  },
+  {
+    "id": "P022",
+    "title": "Xbox Wireless Controller",
+    "description": "Ergonomic wireless controller compatible with Xbox and Windows PCs.",
+    "category": "Gaming Accessories",
+    "price": 4999
+  },
+  {
+    "id": "P023",
+    "title": "Nintendo Switch OLED Console",
+    "description": "Handheld gaming console with vibrant OLED screen and enhanced audio.",
+    "category": "Consoles",
+    "price": 34999
+  },
+  {
+    "id": "P024",
+    "title": "Sony PlayStation 5 Console",
+    "description": "Next-gen gaming console with ultra-high-speed SSD and ray tracing support.",
+    "category": "Consoles",
+    "price": 54999
+  },
+  {
+    "id": "P025",
+    "title": "Mi Power Bank 3i 20000mAh",
+    "description": "High-capacity power bank with dual USB output and fast charging support.",
+    "category": "Electronics",
+    "price": 1699
+  },
+  {
+    "id": "P026",
+    "title": "boAt Rockerz 450 Bluetooth Headphones",
+    "description": "On-ear wireless headphones with 15-hour battery and punchy bass.",
+    "category": "Audio",
+    "price": 1399
+  },
+  {
+    "id": "P027",
+    "title": "Ant Esports MK3400W Wireless Mechanical Keyboard",
+    "description": "Wireless mechanical keyboard with hot-swappable switches and compact 75% layout, great value for budget gaming setups.",
+    "category": "Mechanical Keyboards",
+    "price": 3299
+  },
+  {
+    "id": "P028",
+    "title": "Zebronics Zeb-Transformer-K Gaming Keyboard",
+    "description": "Entry-level membrane gaming keyboard with rainbow LED effects at a low price point.",
+    "category": "Gaming Keyboards",
+    "price": 799
+  },
+  {
+    "id": "P029",
+    "title": "Corsair K70 RGB Pro Mechanical Keyboard",
+    "description": "High-end mechanical keyboard with Cherry MX switches and aircraft-grade aluminum frame.",
+    "category": "Gaming Keyboards",
+    "price": 14999
+  },
+  {
+    "id": "P030",
+    "title": "iBall Wired Gaming Keyboard",
+    "description": "Basic wired membrane keyboard with backlighting, targeted at budget-conscious gamers.",
+    "category": "Gaming Keyboards",
+    "price": 699
+  },
+  {
+    "id": "P031",
+    "title": "Google Play Gift Card ₹1000",
+    "description": "Redeemable for apps, games, and in-app purchases on the Google Play Store.",
+    "category": "Gift Cards",
+    "price": 1000
+  },
+  {
+    "id": "P032",
+    "title": "Apple Gift Card ₹2000",
+    "description": "Digital gift card for App Store, iTunes, and Apple services purchases.",
+    "category": "Gift Cards",
+    "price": 2000
+  },
+  {
+    "id": "P033",
+    "title": "Fire-Boltt Phoenix Smart Watch",
+    "description": "Fitness smartwatch with heart rate monitor, SpO2 tracking, and multiple sport modes.",
+    "category": "Wearables",
+    "price": 1999
+  },
+  {
+    "id": "P034",
+    "title": "Noise ColorFit Pro 4 Smartwatch",
+    "description": "AMOLED display smartwatch with Bluetooth calling and health tracking.",
+    "category": "Wearables",
+    "price": 2799
+  },
+  {
+    "id": "P035",
+    "title": "HyperX Alloy Origins Core Mechanical Keyboard",
+    "description": "Tenkeyless mechanical keyboard with aircraft-grade aluminum body and HyperX switches, aimed at esports players.",
+    "category": "Gaming Keyboards",
+    "price": 6999
+  },
+  {
+    "id": "P036",
+    "title": "Portronics Toad 23 Wireless Mouse",
+    "description": "Compact wireless mouse for everyday computing needs.",
+    "category": "Office Accessories",
+    "price": 499
+  },
+  {
+    "id": "P037",
+    "title": "Steam Deck 256GB",
+    "description": "Handheld gaming PC that runs your Steam library on the go.",
+    "category": "Consoles",
+    "price": 52999
+  },
+  {
+    "id": "P038",
+    "title": "Flipkart Gift Card ₹500",
+    "description": "E-gift voucher redeemable across Flipkart's product catalog.",
+    "category": "Gift Cards",
+    "price": 500
+  },
+  {
+    "id": "P039",
+    "title": "Cosmic Byte CB-GK-19 Neutron Mechanical Keyboard",
+    "description": "Full-size mechanical keyboard with hot-swappable switches, dedicated media keys, ideal for budget gaming rigs.",
+    "category": "Mechanical Keyboards",
+    "price": 2899
+  },
+  {
+    "id": "P040",
+    "title": "Lenovo Legion K500 RGB Gaming Keyboard",
+    "description": "Mechanical gaming keyboard with per-key RGB and anti-ghosting for competitive play.",
+    "category": "Gaming Keyboards",
+    "price": 5499
+  }
 ]
