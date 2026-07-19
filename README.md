@@ -449,3 +449,7 @@ curl --location 'http://localhost:3000/v1/search' \
   ]
 }
 ```
+
+### Demo 
+![Demo Video](https://github.com/user-attachments/assets/15641fcd-7d52-48db-b581-eeb9453494ac)
+
