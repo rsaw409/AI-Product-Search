@@ -451,5 +451,7 @@ curl --location 'http://localhost:3000/v1/search' \
 ```
 
 ### Demo 
-![Demo Video](https://github.com/user-attachments/assets/15641fcd-7d52-48db-b581-eeb9453494ac)
+![Demo Video](https://github.com/user-attachments/assets/41128435-65b3-495f-891c-9978c6f65f0f)
+
+
 
